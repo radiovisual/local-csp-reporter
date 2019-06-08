@@ -19,7 +19,7 @@ After installation, you have a command you can run from the terminal to start th
 $ local-csp-reporter
 ```
 
-Now you can `POST` your CSP violations to http://localhost:3003/report-violation
+Now you can use `http://localhost:3003/report-violation` as your [**report-uri** and **report-to**](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/report-uri) directives in your Content Security Policy.
 
 :rainbow:
 
