@@ -1,0 +1,52 @@
+{
+	"name": "local-csp-reporter",
+	"version": "1.0.0",
+	"description": "A simple localhost server to log CSP violations",
+	"license": "MIT",
+	"repository": "radiovisual/local-csp-reporter",
+	"author": {
+		"name": "",
+		"email": "wuergler@gmail.com",
+		"url": "github.com/radiovisual"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "npx jest test.js --forceExit"
+	},
+	"bin": {
+		"local-csp-reporter": "./cli.js"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"local",
+		"CSP",
+		"content security policy",
+		"localhost",
+		"server",
+		"development"
+	],
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"coveralls": "^3.0.4",
+		"jest": "^24.8.0",
+		"supertest": "^4.0.2"
+	},
+	"jest": {
+		"collectCoverage": true,
+		"collectCoverageFrom": [
+			"index.js",
+			"!/node_modules/**"
+		],
+		"coverageReporters": [
+			"lcov",
+			"text-summary"
+		]
+	}
+}
