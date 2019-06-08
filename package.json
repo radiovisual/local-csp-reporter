@@ -1,6 +1,6 @@
 {
 	"name": "local-csp-reporter",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A simple localhost server to log CSP violations",
 	"license": "MIT",
 	"repository": "radiovisual/local-csp-reporter",
@@ -19,7 +19,8 @@
 		"local-csp-reporter": "./cli.js"
 	},
 	"files": [
-		"index.js"
+		"index.js",
+		"cli.js"
 	],
 	"keywords": [
 		"local",
