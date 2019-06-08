@@ -1,4 +1,4 @@
-# local-csp-reporter [![Build Status](https://travis-ci.com/radiovisual/local-csp-reporter.svg?branch=master)](https://travis-ci.com/radiovisual/local-csp-reporter) [![Coverage Status](https://coveralls.io/repos/github/radiovisual/local-csp-reporter/badge.svg?branch=master)](https://coveralls.io/github/radiovisual/local-csp-reporter?branch=master)
+# local-csp-reporter [![Build Status](https://travis-ci.org/radiovisual/local-csp-reporter.svg?branch=master)](https://travis-ci.org/radiovisual/local-csp-reporter) [![Coverage Status](https://coveralls.io/repos/github/radiovisual/local-csp-reporter/badge.svg?branch=master)](https://coveralls.io/github/radiovisual/local-csp-reporter?branch=master)
 
 > A simple localhost server to log CSP violations
 
